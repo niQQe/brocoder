@@ -1,0 +1,153 @@
+.solarized_dark {
+	.mouse-trace,
+	.chat-button {
+		background: #006887;
+	}
+	.chat-area {
+		background: #01313f;
+		border: 1px solid #00688730;
+		input {
+			border: 1px solid #004b5f;
+			background: #002b36;
+		}
+	}
+	.close-chat-button {
+		background: #054c61;
+		&:hover {
+			background: #075c76;
+			svg {
+				fill: #fff !important;
+			}
+		}
+	}
+	.ace_marker-layer {
+		border-right: 1px solid rgb(22, 66, 79) !important;
+	}
+	.resize-dot {
+		background: #23697e;
+	}
+	.nav {
+		background: rgb(0, 43, 54);
+		border-right: 1px solid rgb(22, 66, 79);
+		.nav-content {
+			border-bottom: 1px solid rgb(22, 66, 79);
+		}
+	}
+	.feedback-container {
+		.message {
+			background: #006887;
+		}
+	}
+	.output-area {
+		background: #002b36;
+		flex: 1;
+		.output-container {
+			border-bottom: 1px solid #16424f;
+			.message {
+				border-top: 1px solid #16424f;
+			}
+		}
+	}
+	.settings-container {
+		position: fixed;
+		display: flex;
+		top: 0;
+		z-index: 500;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		.settings {
+			background: #031e25;
+			padding: 20px;
+			border-radius: 10px;
+			min-width: 400px;
+			margin: auto;
+			select {
+				background: #16424f;
+				border: 1px solid #23697e;
+				padding: 10px;
+				border-radius: 4px;
+				width: 100%;
+				color: #fff;
+			}
+		}
+	}
+}
+
+.gruvbox {
+	.mouse-trace,
+	.chat-button {
+		background: #222;
+	}
+
+	.chat-area {
+		background: #121212;
+		border: 1px solid #222;
+		input {
+			border: 1px solid #121212;
+			background: #333;
+		}
+	}
+	.close-chat-button {
+		background: #222;
+		&:hover {
+			background: #333;
+			svg {
+				fill: #fff !important;
+			}
+		}
+	}
+	.ace_marker-layer {
+		border-right: 1px solid #333;
+	}
+	.resize-dot {
+		background: #555;
+	}
+	.nav {
+		background: #1d2021;
+		border-right: 1px solid #333;
+		.nav-content {
+			border-bottom: 1px solid #333;
+		}
+	}
+	.feedback-container {
+		.message {
+			background: #425e68;
+		}
+	}
+	.output-area {
+		background: #1d2021;
+		flex: 1;
+		.output-container {
+			border-bottom: 1px solid #222;
+			.message {
+				border-top: 1px solid #222 !important;
+			}
+		}
+	}
+
+	.settings-container {
+		position: fixed;
+		display: flex;
+		top: 0;
+		z-index: 500;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		.settings {
+			background: #111111;
+			padding: 20px;
+			border-radius: 10px;
+			min-width: 400px;
+			margin: auto;
+			select {
+				background: #151515;
+				border: 1px solid #1d2021;
+				padding: 10px;
+				border-radius: 4px;
+				width: 100%;
+				color: #fff;
+			}
+		}
+	}
+}
